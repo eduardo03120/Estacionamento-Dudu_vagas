@@ -13,15 +13,12 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Criando tarifário
         Tarifario tarifario =
                 new Tarifario(5, 50, 300, 1000);
 
-        // Criando estacionamento
         Estacionamento estacionamento =
                 new Estacionamento(tarifario);
 
-        // Criando vagas
         estacionamento.adicionarVaga(new Vaga(1));
         estacionamento.adicionarVaga(new Vaga(2));
         estacionamento.adicionarVaga(new Vaga(3));

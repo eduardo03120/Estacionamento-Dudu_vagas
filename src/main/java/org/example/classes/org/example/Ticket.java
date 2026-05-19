@@ -4,26 +4,22 @@ import java.time.LocalDateTime;
 
 public class Ticket {
 
-    // Atributos
     private Veiculo carro;
     private LocalDateTime horaEntrada;
     private LocalDateTime horaSaida;
 
-    // Construtor
     public Ticket(Veiculo carro, LocalDateTime horaEntrada) {
         this.carro = carro;
         this.horaEntrada = horaEntrada;
     }
 
-    // Registrar saída
     public void registrarSaida() {
         this.horaSaida = LocalDateTime.now();
     }
 
-    // Calcular tempo em horas
     public int calcularTempoEmHoras() {
 
-        // Se ainda não saiu
+
         if (horaSaida == null) {
             return 0;
         }
@@ -40,7 +36,7 @@ public class Ticket {
         return (int) horas;
     }
 
-    // Getters e Setters
+
     public Veiculo getCarro() {
         return carro;
     }

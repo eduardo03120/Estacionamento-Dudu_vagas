@@ -27,7 +27,7 @@ public double calcularValor(int totalHoras){
 
     int horas = totalHoras;
 
-    // Soma dos valores
+
     total += meses * valorMes;
     total += semanas * valorSemana;
     total += dias * valorDiaria;
@@ -36,7 +36,7 @@ public double calcularValor(int totalHoras){
     return total;
 }
 
-    // Getters e Setters
+
     public double getValorHora() {
         return valorHora;
     }

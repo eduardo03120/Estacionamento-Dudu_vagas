@@ -15,7 +15,7 @@ public class Dudu_vagas {
 
         Estacionamento estacionamento =
                 new Estacionamento(tarifario);
-        
+
         estacionamento.adicionarVaga(new Vaga(1));
         estacionamento.adicionarVaga(new Vaga(2));
         estacionamento.adicionarVaga(new Vaga(3));

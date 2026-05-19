@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="Duduvagas_projeto:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Duduvagas_projeto_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Duduvagas_projeto.jar">
+        <element id="module-output" name="Duduvagas_projeto" />
+      </element>
+    </root>
+  </artifact>
+</component>
